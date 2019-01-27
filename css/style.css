@@ -1,0 +1,82 @@
+body {
+  background: #495159;
+  font-family: Bree Serif;
+}
+
+#title {
+  margin: 100px 0px 50px 0px;
+  text-align: center;
+  color: #E3E4DB;
+}
+
+#container {
+  background: #A1E8CC;
+  margin: 0% 20% 0% 20%;
+  padding: 40px 10% 50px 10%;
+  color: #333;
+  text-align: center;
+  border-top-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+  -webkit-box-shadow: 0px 0px 10px 0px   #333;
+  -moz-box-shadow: 0px 0px 10px 0px       #333;
+  box-shadow: 0px 0px 10px 0px #333;
+}
+
+#theAuthor {
+  text-align: right;
+  font-style: italic;
+  font-family: Open Sans;
+}
+
+.btn {
+  background: #F6E27F;
+  text-transform: uppercase;
+  margin-top: -6px;
+}
+
+.btn:hover {
+  background: #E3E4DB;
+}
+
+.btn:focus {
+  outline: none;
+}
+
+.btn:active {
+  outline: none;
+}
+
+#interactions {
+  margin-top: 20px;
+  font-size: 39px;
+}
+
+#share-btn {
+  color: #4099FF;
+  border: none;
+  background: none;
+}
+
+#share-btn:hover {
+  color: #E3E4DB;
+}
+
+@media only screen and (max-width: 980px) {
+
+  #title{
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  #container{
+    margin: 0px 1.5% 50px 1.5%;
+  }
+
+  h1{
+    font-size: 25px;
+  }
+
+  h3{
+    font-size: 20px;
+  }
+}
